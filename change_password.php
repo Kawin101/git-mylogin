@@ -46,7 +46,7 @@
             <input type="password" name="password_3">
         </div>
 
-            <button type="submit" name="change_password_user" class="" >Chang Password</button>
+            <button type="submit" name="change_password_user" class="" >Change Password</button>
             <button type="reset" name="reset" >Cancel</button>
         </div>
         <p>Not yet a member? <a href="login.php">Sign in</a></p>
