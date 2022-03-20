@@ -61,7 +61,8 @@
             // แปลง int เป็น md5
             $password = md5($password_1);
             // ใส่ข้อมูลลง from 
-            $sql = "INSERT INTO user (username, password, phone, email, question, answer) VALUES ('$username', '$password', '$phone', '$email', '$question', '$answer')";
+            $sql = "INSERT INTO user (username, password, phone, email, question, answer) 
+            VALUES ('$username', '$password', '$phone', '$email', '$question', '$answer')";
             mysqli_query($link, $sql);
 
             $_SESSION['username'] = $username;

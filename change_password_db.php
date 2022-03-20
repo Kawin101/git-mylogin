@@ -60,8 +60,3 @@
         header("location: change_password.php");
     }
 ?>
-
-
-
-
-
