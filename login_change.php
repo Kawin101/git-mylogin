@@ -9,12 +9,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Chang Password Page</title>
+    <title>Login Change Password Page</title>
 </head>
 <body>
     
     <div class="header">
-        <h2>Login Chang Password</h2>
+        <h2>Login Change Password</h2>
     </div>
     <!-- ดึงข้อมูลจากไฟล์ reset_db.php มาทำงาน-->
     <form action="login_change_db.php" method="post">
