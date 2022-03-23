@@ -59,14 +59,10 @@
             <label for="email">Email</label>
             <input type="email" name="email">
         </div>
-
-
-        
         <div class="input-group">
             <label for="question">Question about you?</label>
             <input type="question" name="question">
         </div>
-
         <!-- 
             // Data list รายการข้อมูล
         <label for="question" class="form-label">Question about you?</label>
@@ -79,8 +75,6 @@
         <option value="Chicago">
         </datalist>
         -->
-
-
         <div class="input-group">
             <label for="answer">Answer in Question!</label>
             <input type="answer" name="answer">
