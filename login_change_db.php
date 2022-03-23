@@ -23,6 +23,8 @@
 
         if (count($errors) == 0) {
             $password = md5($password);
+            $question = md5($question);
+            $answer = md5($answer);
             $query = "SELECT * FROM user WHERE username = '$username' AND question = '$question' AND answer = '$answer' ";
             $result = mysqli_query($link, $query);
 

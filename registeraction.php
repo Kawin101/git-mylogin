@@ -60,6 +60,8 @@
         if (count($errors) == 0) {
             // แปลง int เป็น md5
             $password = md5($password_1);
+            $question = md5($question);
+            $answer = md5($answer);
             // ใส่ข้อมูลลง from 
             $sql = "INSERT INTO user (username, password, phone, email, question, answer) 
             VALUES ('$username', '$password', '$phone', '$email', '$question', '$answer')";
@@ -67,7 +69,7 @@
 
             $_SESSION['username'] = $username;
             $_SESSION['success'] = "You are now logged in";
-            header('location: index.php');
+            header('location: login.php');
         } else {
             header("location: register.php");
         }
